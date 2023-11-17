@@ -1,6 +1,6 @@
 # Watchtower
 
-Watchtower is a modern Java Plugin for PaperMC Servers that adds a visual clock to the game.
+Watchtower is a modern Java Plugin for PaperMC Servers that adds a visual Clock to the Game.
 
 ![Minecraft 1 20 2 - Multiplayer (3rd-party Server) 17 11 2023 21_04_18](https://github.com/OfflineHTTPServer/Watchtower/assets/125279720/5ec4017b-2c7a-472c-a554-f83ecc167a3e)
 
