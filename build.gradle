@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'com.offlinehttpserver'
-version = '1.0'
+version = '1.0-Stable'
 
 repositories {
     mavenCentral()
