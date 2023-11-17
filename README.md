@@ -10,7 +10,7 @@ Watchtower is a modern Java Plugin for PaperMC Servers that adds a visual clock 
 
 # Usage
 
-Toggle the clock with 
+Toggle the Clock with 
 ````
 /watch
 ````
