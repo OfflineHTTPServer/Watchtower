@@ -1,6 +1,6 @@
 # Watchtower
 
-Watchtower is a modern Java Plugin for PaperMC Servers that adds a handy visual clock allowing players to know the daytime even when they are not in the overworld
+Watchtower is a modern Java Plugin for PaperMC Servers that adds a visual clock to the game.
 
 # Compatibility
 
