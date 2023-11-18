@@ -20,12 +20,12 @@ public class Watch implements CommandExecutor {
 
         Player player = (Player) sender;
 
-        if (Storage.dayWatchBar.getPlayers().contains(player)) {
-            Storage.dayWatchBar.removePlayer(player);
+        if (Storage.watchBar.getPlayers().contains(player)) {
+            Storage.watchBar.removePlayer(player);
             return true;
         }
 
-        Storage.dayWatchBar.addPlayer(player);
+        Storage.watchBar.addPlayer(player);
 
         return true;
     }

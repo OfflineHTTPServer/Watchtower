@@ -19,13 +19,13 @@ public final class Watchtower extends JavaPlugin {
             long time = Bukkit.getWorld(WatchtowerConfig.WORLD_NAME).getTime();
 
             if (time <= WatchtowerConfig.SPLIT) {
-                Storage.dayWatchBar.setColor(WatchtowerConfig.DAY_BAR_COLOR);
-                Storage.dayWatchBar.setProgress((double) time / WatchtowerConfig.SPLIT);
+                Storage.watchBar.setColor(WatchtowerConfig.DAY_BAR_COLOR);
+                Storage.watchBar.setProgress((double) time / WatchtowerConfig.SPLIT);
                 return;
             }
 
-            Storage.dayWatchBar.setColor(WatchtowerConfig.NIGHT_BAR_COLOR);
-            Storage.dayWatchBar.setProgress((double) (time - WatchtowerConfig.SPLIT) / (WatchtowerConfig.MAX_BAR_VALUE - WatchtowerConfig.SPLIT));
+            Storage.watchBar.setColor(WatchtowerConfig.NIGHT_BAR_COLOR);
+            Storage.watchBar.setProgress((double) (time - WatchtowerConfig.SPLIT) / (WatchtowerConfig.MAX_BAR_VALUE - WatchtowerConfig.SPLIT));
 
         }, WatchtowerConfig.THREAD_START_DELAY, WatchtowerConfig.THREAD_RUN_INTERVAL);
         bossBarManager.start();
